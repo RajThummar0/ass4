@@ -80,6 +80,7 @@
     <Compile Include="ContactUs.aspx.designer.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
     </Compile>
+    <Compile Include="NameTextBox.cs" />
     <Compile Include="PhotoGallery.aspx.cs">
       <DependentUpon>PhotoGallery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
