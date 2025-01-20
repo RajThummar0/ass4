@@ -3,8 +3,23 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>MySite</title>
+    <title>22SOEIT11032</title>
     <style>
+         .header {
+        display: flex;
+        justify-content: space-between; /* Distributes space between header items */
+        align-items: center;           /* Vertically aligns items in the header */
+        background-color: aquamarine;
+        color: black;
+    }
+.header h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .logo {
+        height: 50px; /* Adjust the logo height */
+    }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -48,8 +63,13 @@
 <body>
     <form id="form1" runat="server">
         <div class="header">
-            <h1>MySite</h1>
-            <p>NAME: abc | EMAILID: abc@gmail.com</p>
+            <div class="header">
+            <img src="2.jpg" alt="Logo" class="logo" />
+        </div>
+
+            <h1>MySite</h1><br />
+
+            <p>NAME: raj <br /> EMAILID: rthummar308@rku.ac.in</p>
         </div>
         <div class="menu">
             <a href="Resume.aspx">Resume</a>
@@ -61,7 +81,7 @@
             </asp:ContentPlaceHolder>
         </div>
         <div class="footer">
-            &copy; 2012: ALL RIGHTS ARE RESERVED
+            &copy; copyright 2025: ALL RIGHTS RESERVED
         </div>
     </form>
 </body>
